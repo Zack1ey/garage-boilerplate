@@ -4,7 +4,7 @@ export function TeamRoster() {
   return (
     <div>
       <div className="mb-4 flex items-baseline gap-2.5">
-        <p className="m-0 font-mono text-xs uppercase tracking-[0.14em] text-[--ink-soft]">
+        <p className="m-0 font-mono text-xs tracking-[0.14em] text-[--ink-soft] uppercase">
           Roster
         </p>
         <div className="h-px flex-1 bg-[--hairline]" />

@@ -11,8 +11,13 @@ const STOP_POSITIONS = [
 
 export function TeamLine() {
   return (
-    <div className="rounded-[20px] border border-[--hairline] bg-[--paper-raised] px-7 pb-7 pt-9">
-      <svg viewBox="0 0 800 160" className="block h-auto w-full" role="img" aria-label="Team line diagram, four stops">
+    <div className="rounded-[20px] border border-[--hairline] bg-[--paper-raised] px-7 pt-9 pb-7">
+      <svg
+        viewBox="0 0 800 160"
+        className="block h-auto w-full"
+        role="img"
+        aria-label="Team line diagram, four stops"
+      >
         <path
           id="team-track"
           d="M 60 80 C 220 30, 300 130, 420 80 S 620 30, 740 80"
